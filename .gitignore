@@ -1,0 +1,10 @@
+# Python / virtual-env
+.venv/
+__pycache__/
+*.pyc
+
+# Data / large assets (you can keep the images if you wish)
+archive/
+ml/runs/
+ml/artifacts/*.pt   # ignore auto-generated checkpoints; keep only the ones you want
+.vscode/
